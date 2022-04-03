@@ -1,0 +1,67 @@
+.contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.item {
+  background-color: white;
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 4px groove #94a3b8;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.contactList button {
+  cursor: pointer;
+  outline: none;
+  color: red;
+  padding: 8px 10px;
+  font-size: 17px;
+  background-color: white;
+  border: 2px outset red;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.contactList button:hover {
+  background-color: red;
+  color: white;
+}
+.pContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin-right: 120px;
+}
+.pTaginList {
+  margin-bottom: 10px;
+}
+.icon {
+  font-size: 23px;
+}
+
+#icon {
+  font-size: 40px;
+  color: #475569;
+}
+.listHeader {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+.listHeader ion-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  margin-left: 10px;
+  color: #000;
+}
+.listHeader ion-icon:hover {
+  transform: rotate(360deg);
+}
