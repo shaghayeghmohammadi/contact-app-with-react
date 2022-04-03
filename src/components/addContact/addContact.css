@@ -44,11 +44,20 @@ form button:hover {
 }
 .formControl label {
   font-size: 1.4rem;
-  color: #14532d;
+  color: #334155;
 }
 
 #AddIcon {
   font-size: 1.2rem;
   font-weight: bold;
   margin-left: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
 }

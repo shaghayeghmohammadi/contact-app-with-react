@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "./contact.css"
 const Contact = ({ contact, onDelete }) => {
   const { id, number, name } = contact;
   // console.log(contact);
@@ -7,7 +7,7 @@ const Contact = ({ contact, onDelete }) => {
     <div key={id} className="item">
       <ion-icon id="icon" name="person-circle-outline"></ion-icon>
 
-      <Link to={`user/${id}`} state={{ contact: contact }}>
+      <Link className="contactLink"  to={`user/${id}`} state={{ contact: contact }}>
         <div className="pContainer">
           <p className="pTaginList">Name : {name} </p>
           <p>Number : {number} </p>
